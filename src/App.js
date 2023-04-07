@@ -32,7 +32,6 @@ function App() {
           return <Note key={index} title= {value.title} content= {value.content} onDelete = {deleteItem} id = {index} />;
       })}
       
-     
       <Footer />
     </div>
   );
